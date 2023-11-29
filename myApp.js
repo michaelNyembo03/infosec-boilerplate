@@ -2,6 +2,7 @@ const express = require('express');
 const helmet = require('helmet'); // Fix typo here
 const app = express();
 
+app.use(helmet.hidePoweredBy());
 
 
 
